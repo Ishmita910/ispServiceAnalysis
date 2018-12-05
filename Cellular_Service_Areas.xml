@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xalan="http://xml.apache.org/xalan" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.isotc211.org/2005/gmd">
+<fileIdentifier>
+<gco:CharacterString>1500995161104r971681974538793</gco:CharacterString>
+</fileIdentifier>
+<language>
+<LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+</language>
+<characterSet>
+<MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+</characterSet>
+<hierarchyLevel>
+<MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+</hierarchyLevel>
+<contact>
+<CI_ResponsibleParty>
+<organisationName>
+<gco:CharacterString>Federal Communications Commission (FCC)</gco:CharacterString>
+</organisationName>
+<positionName>
+<gco:CharacterString>Senior Engineer</gco:CharacterString>
+</positionName>
+<contactInfo gco:nilReason="missing"/>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</contact>
+<dateStamp>
+<gco:Date>2017-07-25</gco:Date>
+</dateStamp>
+<metadataStandardName>
+<gco:CharacterString>NAP - Metadata</gco:CharacterString>
+</metadataStandardName>
+<metadataStandardVersion>
+<gco:CharacterString>1.2</gco:CharacterString>
+</metadataStandardVersion>
+<spatialRepresentationInfo>
+<MD_VectorSpatialRepresentation>
+<geometricObjects>
+<MD_GeometricObjects>
+<geometricObjectType gco:nilReason="missing"/>
+<geometricObjectCount>
+<gco:Integer>1725</gco:Integer>
+</geometricObjectCount>
+</MD_GeometricObjects>
+</geometricObjects>
+</MD_VectorSpatialRepresentation>
+</spatialRepresentationInfo>
+<identificationInfo>
+<MD_DataIdentification>
+<citation>
+<CI_Citation>
+<title>
+<gco:CharacterString>Cellular Service Areas</gco:CharacterString>
+</title>
+<date gco:nilReason="missing"/>
+<citedResponsibleParty>
+<CI_ResponsibleParty>
+<organisationName>
+<gco:CharacterString>Federal Communications Commission (FCC)</gco:CharacterString>
+</organisationName>
+<contactInfo gco:nilReason="missing"/>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</citedResponsibleParty>
+<presentationForm>
+<CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+</presentationForm>
+</CI_Citation>
+</citation>
+<abstract>
+<gco:CharacterString>This dataset serves as base information for use in GIS systems for general planning, analytical, and research purposes. It is not intended for engineering work or to legally define FCC licensee data or FCC market boundaries. The material in these data and text files are provided as-is. The FCC disclaims all warranties with regard to the contents of these files, including their fitness. In no event shall the FCC be liable for any special, indirect, or consequential damages whatsoever resulting from loss or use, data, or profits, whether in connection with the use or performance of the contents of these files, action of contract, negligence, or other action arising out of, or in connection with the use of the contents of these files. It is known that there are some errors in the licensing information - Latitude, Longitude and Ground Elevation data as well as frequency assignment data from which these files were generated. This dataset represents cellular service areas aggregated by callsign.</gco:CharacterString>
+</abstract>
+<purpose>
+<gco:CharacterString>This dataset represents Cellular Service Area Boundaries aggregated by callsign.</gco:CharacterString>
+</purpose>
+<credit>
+<gco:CharacterString>Federal Communications Commission (FCC)</gco:CharacterString>
+</credit>
+<status>
+<MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
+</status>
+<pointOfContact>
+<CI_ResponsibleParty>
+<organisationName>
+<gco:CharacterString>Federal Communications Commission (FCC)</gco:CharacterString>
+</organisationName>
+<positionName>
+<gco:CharacterString>Senior Engineer</gco:CharacterString>
+</positionName>
+<contactInfo gco:nilReason="missing"/>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</pointOfContact>
+<resourceMaintenance>
+<MD_MaintenanceInformation>
+<maintenanceAndUpdateFrequency>
+<MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="daily" codeSpace="ISOTC211/19115">daily</MD_MaintenanceFrequencyCode>
+</maintenanceAndUpdateFrequency>
+</MD_MaintenanceInformation>
+</resourceMaintenance>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Northern Marianas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Puerto Rico</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Hawaii</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Guam</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Alaska</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>CONUS</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Continental United States</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>U.S. Virgin Islands</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>American Samoa</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Northern Marianas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Puerto Rico</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Hawaii</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Guam</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Alaska</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>CONUS</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Continental United States</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>U.S. Virgin Islands</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>American Samoa</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Northern Marianas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Puerto Rico</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Hawaii</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Guam</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Alaska</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>CONUS</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Continental United States</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>U.S. Virgin Islands</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>American Samoa</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Northern Marianas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Puerto Rico</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Hawaii</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Guam</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Alaska</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>CONUS</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Continental United States</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>U.S. Virgin Islands</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>American Samoa</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Northern Marianas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Puerto Rico</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Hawaii</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Guam</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Alaska</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>CONUS</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Continental United States</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>U.S. Virgin Islands</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>American Samoa</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Northern Marianas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Puerto Rico</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Hawaii</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Guam</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Alaska</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>CONUS</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Continental United States</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>U.S. Virgin Islands</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>American Samoa</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Northern Marianas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Puerto Rico</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Hawaii</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Guam</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Alaska</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>CONUS</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Continental United States</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>U.S. Virgin Islands</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>American Samoa</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Northern Marianas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Puerto Rico</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Hawaii</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Guam</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Alaska</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>CONUS</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Continental United States</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>U.S. Virgin Islands</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>American Samoa</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Northern Marianas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Puerto Rico</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Hawaii</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Guam</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Alaska</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>CONUS</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Continental United States</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>U.S. Virgin Islands</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>American Samoa</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Boundaries</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Wireless</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Service areas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Cellular</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Callsign</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Federal Communications Commission</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>FCC</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Boundaries</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Wireless</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Service areas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Cellular</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Callsign</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Federal Communications Commission</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>FCC</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Boundaries</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Wireless</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Service areas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Cellular</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Callsign</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Federal Communications Commission</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>FCC</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Boundaries</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Wireless</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Service areas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Cellular</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Callsign</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Federal Communications Commission</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>FCC</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Boundaries</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Wireless</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Service areas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Cellular</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Callsign</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Federal Communications Commission</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>FCC</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Boundaries</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Wireless</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Service areas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Cellular</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Callsign</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Federal Communications Commission</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>FCC</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Boundaries</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Wireless</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Service areas</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Cellular</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Callsign</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Federal Communications Commission</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>FCC</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Downloadable Data</gco:CharacterString>
+</keyword>
+<thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
+</MD_Keywords>
+</descriptiveKeywords>
+<resourceConstraints>
+<MD_Constraints>
+<useLimitation>
+<gco:CharacterString>Use Constraint: None (Public Use)</gco:CharacterString>
+</useLimitation>
+</MD_Constraints>
+</resourceConstraints>
+<resourceConstraints>
+<MD_LegalConstraints>
+<otherConstraints>
+<gco:CharacterString>Access Constraint: None (Public Domain Information)</gco:CharacterString>
+</otherConstraints>
+</MD_LegalConstraints>
+</resourceConstraints>
+<language>
+<LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+</language>
+<characterSet>
+<MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+</characterSet>
+<topicCategory>
+<MD_TopicCategoryCode>boundaries</MD_TopicCategoryCode>
+</topicCategory>
+<topicCategory>
+<MD_TopicCategoryCode>utilitiesCommunication</MD_TopicCategoryCode>
+</topicCategory>
+<extent>
+<EX_Extent>
+<description>
+<gco:CharacterString>publication date</gco:CharacterString>
+</description>
+</EX_Extent>
+</extent>
+<supplementalInformation>
+<gco:CharacterString>If you are using this dataset as a shapefile, please be aware that it was converted from a Geodatabase. As a result, this shapefile may have attribution and metadata errors resulting from the conversion process. The following are known issues: null values may have been changed to 0s (zeros) or to blank values, numbers (including latitude and longitude) may have been rounded up or down, there may be issues with Unicode character strings, and time cannot be stored in a date field. Field names may have been truncated to no longer than 10 characters or completely changed, lengthy string attributes may have been truncated to 254 characters, and attribute columns may have been deleted. Shapefiles do not support coded domains and subtypes therefore the original file geodatabase attribution and metadata information for coded domains and subtypes could be incorrect or missing in the shapefile version. Please visit the following ESRI website for more information: caution-http://pro.arcgis.com/en/pro-app/tool-reference/appendices/geoprocessing-considerations-for-Shapefile-output.htm</gco:CharacterString>
+</supplementalInformation>
+</MD_DataIdentification>
+</identificationInfo>
+<distributionInfo>
+<MD_Distribution>
+<distributionFormat gco:nilReason="missing"/>
+<transferOptions>
+<MD_DigitalTransferOptions>
+<onLine>
+<CI_OnlineResource>
+<linkage>
+<URL>http://wireless.fcc.gov/services/cellular/A_Block_CGSA.geojson</URL>
+</linkage>
+<protocol gco:nilReason="missing"/>
+</CI_OnlineResource>
+</onLine>
+<onLine>
+<CI_OnlineResource>
+<linkage>
+<URL>http://wireless.fcc.gov/services/cellular/B_Block_CGSA.geojson</URL>
+</linkage>
+<protocol gco:nilReason="missing"/>
+</CI_OnlineResource>
+</onLine>
+</MD_DigitalTransferOptions>
+</transferOptions>
+</MD_Distribution>
+</distributionInfo>
+<dataQualityInfo>
+<DQ_DataQuality>
+<scope>
+<DQ_Scope>
+<level>
+<MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+</level>
+</DQ_Scope>
+</scope>
+<lineage>
+<LI_Lineage>
+<processStep>
+<LI_ProcessStep>
+<description>
+<gco:CharacterString>The letter casing and abbreviations have been standardized in the LICENSEE attribute column.</gco:CharacterString>
+</description>
+<processor>
+<CI_ResponsibleParty>
+<organisationName>
+<gco:CharacterString>HIFLD Support Team</gco:CharacterString>
+</organisationName>
+<contactInfo gco:nilReason="missing"/>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115">processor</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</processor>
+</LI_ProcessStep>
+</processStep>
+</LI_Lineage>
+</lineage>
+</DQ_DataQuality>
+</dataQualityInfo>
+</MD_Metadata>
