@@ -1,5 +1,5 @@
 import time
-# from ISP_Object import ISP_Object
+from . import ISP_Object
 from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 from selenium import webdriver
@@ -53,17 +53,15 @@ while show_more:
 # get soup
 html = driver.page_source
 soup = BeautifulSoup(html, "html.parser")
-# get ID
-# driver.entertext <key word>
-# X path
-# iterate over each offer, skipping first one
-for item in soup.findAll('li', {'itemtype': 'http://schema.org/Product'})[1:]:
+
+
+for item in soup.findAll('li', {"tbody"})[1:]:
 
     # create scraper object
     isp_object = ISP_Object()
 
     # hardcoded variable
-    isp_object.website = 'Preis 24'
+    isp_object.website = 'FCC'
     isp_object.is_reseller = True
     isp_object.is_contract = True
     isp_object.contract_length_months = 24
@@ -185,15 +183,15 @@ for item in soup.findAll('li', {'itemtype': 'http://schema.org/Product'})[1:]:
         try:
             for extras in all_tables[3].find("tbody").findAll("tr")[1:]:
                 extras_row = extras.findAll("td")
-                if extras_row[0].text in converged_mobile:
-                    isp_object.is_converged_mobile_option = True
-                    isp_object.mobile_voice_data = 999
-                    if extras_row[1].text.find("Monat") != -1:
-                        isp_object.converged_mobile_monthly_cost = "{:.2f}".format(float(extras_row[1].text[:-7].replace(',', '.')))
-                    break
-                else:
-                    # set converged_mobile none entries to False
-                    isp_object.is_converged_mobile_included = False
+                # if extras_row[0].text in converged_mobile:
+                #     isp_object.is_converged_mobile_option = True
+                #     isp_object.mobile_voice_data = 999
+                #     if extras_row[1].text.find("Monat") != -1:
+                #         isp_object.converged_mobile_monthly_cost = "{:.2f}".format(float(extras_row[1].text[:-7].replace(',', '.')))
+                #     break
+                # else:
+                #     # set converged_mobile none entries to False
+                #     isp_object.is_converged_mobile_included = False
         except (IndexError, AttributeError):
             # set converged_mobile none entries to False
             isp_object.is_converged_mobile_included = False
