@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df1e3c8f-f185-45d8-8999-23843823ee49" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Cellular_Service_Areas.cpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Cellular_Service_Areas.dbf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Cellular_Service_Areas.prj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Cellular_Service_Areas.shp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Cellular_Service_Areas.shx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Cellular_Service_Areas.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +16,8 @@
       <file leaf-file-name="fccScraper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webScraper/fccScraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="183" column="25" lean-forward="false" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+            <state relative-caret-position="350">
+              <caret line="62" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -32,11 +25,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ISP_Object.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="broadbandScraper.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webScraper/broadbandScraper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISP_Object.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webScraper/ISP_Object.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="900">
+              <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -67,6 +72,7 @@
         <option value="$PROJECT_DIR$/webScrapper/fccScrapper.py" />
         <option value="$PROJECT_DIR$/webScraper/ISP_Object.py" />
         <option value="$PROJECT_DIR$/webScraper/fccScraper.py" />
+        <option value="$PROJECT_DIR$/webScraper/broadbandScraper.py" />
       </list>
     </option>
   </component>
@@ -149,6 +155,14 @@
       <option name="presentableId" value="Default" />
       <updated>1544108480480</updated>
     </task>
+    <task id="LOCAL-00001" summary="data_charts">
+      <created>1544110303354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544110303355</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -184,27 +198,41 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="data_charts" />
+    <option name="LAST_COMMIT_MESSAGE" value="data_charts" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webScraper/ISP_Object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webScraper/fccScraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="183" column="25" lean-forward="false" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+        <state relative-caret-position="350">
+          <caret line="62" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webScraper/ISP_Object.py">
+    <entry file="file://$PROJECT_DIR$/webScraper/broadbandScraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="271">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
